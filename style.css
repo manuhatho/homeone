@@ -507,6 +507,10 @@ footer .items .itmS{
     }
 }
 @media (max-width:926px) {
+
+    body {
+        zoom: 60%;
+    }
     .hero {
         display: flex;
         justify-content: center;

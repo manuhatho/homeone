@@ -24,3 +24,10 @@ arrow.addEventListener('click', function() {
             arrow.style.display ="none";
         }
     })
+
+    function dezoomerPage () {
+        document.body.style.zoom ="80%";
+    }
+
+    window.onload = dezoomerPage;
+
